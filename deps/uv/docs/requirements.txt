@@ -3,7 +3,7 @@ furo==2023.5.20
 Sphinx==8.0.2
 
 # dependencies
-alabaster==0.7.13
+alabaster==1.0.0
 Babel==2.11.0
 beautifulsoup4==4.12.2
 certifi==2022.12.7
