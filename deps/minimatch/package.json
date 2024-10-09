@@ -54,7 +54,7 @@
     "node": "20 || >=22"
   },
   "dependencies": {
-    "brace-expansion": "^2.0.1"
+    "brace-expansion": "^4.0.0"
   },
   "devDependencies": {
     "@types/brace-expansion": "^1.1.2",
@@ -68,9 +68,10 @@
     "mkdirp": "^3.0.1",
     "prettier": "^3.3.2",
 
+
     "tap": "^20.0.3",
     "tshy": "^3.0.2",
-=======
+
     "tap": "^21.0.1",
     "tshy": "^2.0.1",
 
