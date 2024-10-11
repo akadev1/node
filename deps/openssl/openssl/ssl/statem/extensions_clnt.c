@@ -1649,6 +1649,7 @@ int tls_parse_stoc_alpn(SSL *s, PACKET *pkt, unsigned int context, X509 *x,
     }
 
     OPENSSL_free(s->s3.alpn_selected);
+    s->s3.alpn_selected = NULL;
     s->s3.alpn_selected = OPENSSL_malloc(len);
     if (s->s3.alpn_selected == NULL) {
         s->s3.alpn_selected_len = 0;
